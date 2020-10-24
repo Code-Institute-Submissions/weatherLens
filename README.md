@@ -17,7 +17,14 @@ A weather app designed to bring the up to date **weather** to the user. The user
 The logo was created using [Free Logo Maker](https://logomakr.com) and was designed to incorporate the **weather** and the **lens** that allows you to view the weather in a chosen location.
 
 ![](assets/images/logo.png)
+
 2. **Colour Scheme**
+
+The colours for the website were chosen using [Coolor](https://coolors.co/3c1642-086375-1dd3b0-fffdfd-ffffff) and aim to represent the different weathers. The chosen colours are:
+
+* ![#656565](https://placehold.it/15/656565/000000?text=+) `#656565` - Dim Grey
+* ![#89BBFE](https://placehold.it/15/89BBFE/000000?text=+) `#89BBFE` - French Sky Blue 
+* ![#FFC857](https://placehold.it/15/FFC857/000000?text=+) `#FFC857` - Maximum Yellow Red
 
 3. **Fonts**
 
