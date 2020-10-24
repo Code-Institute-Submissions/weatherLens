@@ -12,6 +12,10 @@ A weather app designed to bring the up to date **weather** to the user. The user
 
 ### User Stories
 
+*Generic User*
+
+
+
 ### Design 
 1. **Logo**
 The logo was created using [Free Logo Maker](https://logomakr.com) and was designed to incorporate the **weather** and the **lens** that allows you to view the weather in a chosen location.
@@ -44,6 +48,11 @@ The website has the main font of Arvo, which was chosen due to it **readability 
 ---
 ### **Languages**
 
+* HTML
+
+* CSS
+
+* JavaScipt
 ### **Frameworks and Libraries**
 
 ### **Tools Used**
