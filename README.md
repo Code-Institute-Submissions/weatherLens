@@ -28,6 +28,8 @@ The colours for the website were chosen using [Coolor](https://coolors.co/3c1642
 
 3. **Fonts**
 
+The website has the main font of Arvo, which was chosen due to it **readability for all users**. It was chosen using [Google Fonts](https://fonts.googleapis.com/css2?family=Arvo&display=swap) and has a default of Sans Serif.
+
 4. **Wireframes**
 
 ## Features
