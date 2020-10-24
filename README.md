@@ -14,7 +14,9 @@ A weather app designed to bring the up to date **weather** to the user. The user
 
 ### Design 
 1. **Logo**
+The logo was created using [Free Logo Maker](https://logomakr.com) and was designed to incorporate the **weather** and the **lens** that allows you to view the weather in a chosen location.
 
+![](assets/images/logo.png)
 2. **Colour Scheme**
 
 3. **Fonts**
