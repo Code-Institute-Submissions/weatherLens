@@ -14,6 +14,13 @@ A weather app designed to bring the up to date **weather** to the user. The user
 
 *Generic User*
 
+* As a user, I want to be able to **search** for a location.
+
+* As a user, I want to be able to **identify** the weather in my chosen location.
+
+*  As a user, I want to be able to **access numerous locations** on my visit to WeatherLens.
+
+* As a user, I want to be able to see the **temperature** in my chosen location.
 
 
 ### Design 
