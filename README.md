@@ -41,8 +41,22 @@ The website has the main font of Arvo, which was chosen due to it **readability 
 
 ### Existing Features
 
+* A **search bar** at the top of the page that will allow the user to search for any location in the world. 
+
+* The **location** written below the search bar based in the users input. 
+
+* The **date** of the current search
+
+* The **temperature** in the location that the user has search for.
+
+* The **weather conditions** of the location that the user has chosen to search.
+
+
 ### Features Left to Implement
 
+* A **five day forecast** that will allow users to not only see the current weather but also the weather predicted for the next ffive days.
+
+* **Animated weather icons** that automatically change according to the weather in the users searched location. 
 
 ## Technologies Used
 ---
