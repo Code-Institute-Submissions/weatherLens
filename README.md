@@ -103,6 +103,27 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 ## Deployment
 ---
 
+The webpage was developed using Gitpod IDE and was commited and pushed to a Github repository. The steps below were used to deploy my webpage.
+
+1. Go to [Github](https://github.com/) 
+2. Search for [Ted-Williams/weatherlens](https://github.com/Ted-Williams/Sportance)
+3. Select **settings** from the menu at the top of the page.
+4. Scroll down to **GitHub Pages section**.
+5. Click on the **dropdown menu** with in the source section and **select master branch**.
+6. Click **save**.
+
+The webpage can be found here: [weatherLens](https://ted-williams.github.io/weatherLens/.)
+
+To create a local respository, follow the steps below:
+
+1. Navigate to [Ted-Williams/weaherlens](https://github.com/Ted-Williams/Sportance)
+2. Below the menu **click Clone**.
+3. Copy the URl using the **clipboard** to the righthand side.
+4. Open you preferred IDE for example Gitpod.
+5. Type **git clone** into the terminal and paste the respository URl.
+6. **Click enter** and the clone will be created. 
+
+
 ##  Credits
 ---
 
