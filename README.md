@@ -36,6 +36,12 @@ The website has the main font of Arvo, which was chosen due to it **readability 
 
 4. **Wireframes**
 
+The following wireframes were created using [Balsamiq](https://balsamiq.com/wireframes/?gclid=CjwKCAjwltH3BRB6EiwAhj0IUBrAHe-2BiRjQmQGSO-FZIjoEjkckL_kVyJXd5ShGVwKqDaDMqKjvBoCQksQAvD_BwE)
+
+![](wireframes/desktop.png)
+![](wireframes/mobile.png)
+![](wireframes/tablet.png)
+
 ## Features
 ---
 
