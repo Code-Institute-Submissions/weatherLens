@@ -41,4 +41,15 @@ header input:focus::placeholder {
     color: transparent;
 }
 
+section {
+    color: #89BBFE;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    align-items: center;
+    text-align: center;
+    
+}
+
 
