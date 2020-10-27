@@ -72,3 +72,8 @@ section {
     margin-bottom: 15px;
     font-weight: 800;
 }
+
+#conditions-now .conditions {
+    font-size: 48px;
+    margin-top: 20px;
+}
