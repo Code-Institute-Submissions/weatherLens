@@ -37,4 +37,8 @@ header input {
     color: #656565;
 }
 
+header input:focus::placeholder {
+    color: transparent;
+}
+
 
