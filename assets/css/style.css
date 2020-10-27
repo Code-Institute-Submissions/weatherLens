@@ -67,3 +67,8 @@ section {
      color: #89BBFE;
 }
 
+#conditions-now .temperature {
+    font-size: 110px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
