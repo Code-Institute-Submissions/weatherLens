@@ -77,3 +77,8 @@ section {
     font-size: 48px;
     margin-top: 20px;
 }
+
+#conditions-now .temperature-difference {
+    font-size: 32px;
+    margin-top: 20px;
+}
