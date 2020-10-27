@@ -58,3 +58,6 @@ section {
     text-transform: uppercase;
 }
 
+#place .day {
+    font-size: 16px;
+}
