@@ -104,6 +104,8 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 ### Validation
 
+All code was **validated** using [W3C’s Code Validator]( https://jigsaw.w3.org/css-validator/validator) and no errors or warnings were shown. 
+
 ## Deployment
 ---
 
