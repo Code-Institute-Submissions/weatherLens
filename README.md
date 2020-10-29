@@ -142,5 +142,8 @@ To create a local respository, follow the steps below:
 ### Acknoweledgements
 
 
+* I would like to thank [Simen Dehlin](https://github.com/Eventyret) for his continued support, help and words of encouragement throughout this project. 
+* I would also like to thank the **slack community** at the Code Institute for the help with peer review when needed. 
+
 
  ***This project is fictitous and was created for educational purposes as part of the Code Institute Milestone Project 2***
