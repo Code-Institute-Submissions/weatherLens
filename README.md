@@ -80,7 +80,11 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 * CSS
 
 * JavaScipt
+
 ### **Frameworks and Libraries**
+
+[Google Fonts](https://fonts.google.com/specimen/Lato?sidebar.open&selection.family=Lato)
+[JSON](https://www.json.org/json-en.html)
 
 ### **Tools Used**
 
