@@ -33,8 +33,8 @@ function displayResults (weather) {
     let weatherElement = document.querySelector('#conditions-now .conditions');
     weatherElement.innerText =  weather.weather[0].main;
 
-
-
+    let temperatureDifference = document.querySelector('.temperature-difference');
+    temperatureDifference.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
 }
 
 function dateBuilder (d) {
