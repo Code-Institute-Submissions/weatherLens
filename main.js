@@ -18,3 +18,8 @@ function getResults(query) {
         return weather.json();
     }).then(displayResults);
 }
+
+function displayResults (weather) {
+    let area = document.querySelector('#place .area');
+    area.innerText = `${weather.name}, ${weather.sys.country}`;
+}
