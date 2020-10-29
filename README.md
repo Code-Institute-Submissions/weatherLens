@@ -135,6 +135,8 @@ To create a local respository, follow the steps below:
 
 ### Media
 
+* All images used were taken from [Google](www.google.com)
+
 ### Acknoweledgements
 
 
