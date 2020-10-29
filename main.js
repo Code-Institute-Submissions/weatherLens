@@ -22,4 +22,9 @@ function getResults(query) {
 function displayResults (weather) {
     let area = document.querySelector('#place .area');
     area.innerText = `${weather.name}, ${weather.sys.country}`;
+
+    let now = new Date.now();
+    let date = document.querySelector("#place .day");
+    date.innerText = dateBuilder(now);
+
 }
