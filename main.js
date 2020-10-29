@@ -30,6 +30,10 @@ function displayResults (weather) {
     let temp = document.querySelector('#conditions-now .temperature');
     temp.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
 
+    let weatherElement = document.querySelector('#conditions-now .conditions');
+    weatherElement.innerText =  weather.weather[0].main;
+
+
 
 }
 
