@@ -41,6 +41,7 @@ header input:focus::placeholder {
 	color: transparent;
 }
 
+
 section {
 	color: #0a2239;
 	display: flex;
@@ -81,4 +82,10 @@ section {
 #conditions-now .temperature-difference {
 	font-size: 32px;
 	margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  header button {
+    width: 2%;
+  }
 }
