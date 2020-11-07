@@ -1,50 +1,42 @@
+const enquiryRef = document.querySelector('.enquiry');
+const areaRef = document.querySelector('#place .area');
+const dateRef = document.querySelector ('#place .day');
+const weatherRed = document.querySelector ('#conditions-now .conditions');
+const tempRef = document.querySelector ('#conditions-now .temperature');
+const tempDiffRed = document.querySelector ('.temperature-difference');
+
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const api = {
   key: "03e844bff36a172614ecb788fd7c7fd8",
   base: "https://api.openweathermap.org/data/2.5/"
 }
 
-const enquiry = document.querySelector('.enquiry');
-enquiry.addEventListener('keypress', setQuery);
 
-function setQuery(evt) {
-  if (evt.keyCode == 13) {
+enquiry.addEventListener('keypress', checkIfEnter);
+
+function checkIfEnter(event) {
+  if (evt.keyCode === 13) {
     getResults(enquiry.value);
   }
 }
 
-function getResults(query) {
+function getResults(city) {
   fetch(`${api.base}weather?q=${query}&units=metric&APPID=${api.key}`)
-    .then(weather => {
-      return weather.json();
-    }).then(displayResults);
+    .then((response) => response.json()) 
+    .then((weatherData) => {
+    displayResults(weatherData);
+    });
 }
 
 function displayResults(weather) {
-  let area = document.querySelector('#place .area');
   area.innerText = `${weather.name}, ${weather.sys.country}`;
-
-  let now = new Date();
-  let date = document.querySelector("#place .day");
-  date.innerText = dateBuilder(now);
-
-  let temp = document.querySelector('#conditions-now .temperature');
+  const dateToday = new.Date();
+  date.innerText = dateToday.toDateString();
   temp.innerHTML = `${Math.round(weather.main.temp)}<span>°c</span>`;
-
-  let weatherElement = document.querySelector('#conditions-now .conditions');
   weatherElement.innerText = weather.weather[0].main;
-
-  let temperatureDifference = document.querySelector('.temperature-difference');
   temperatureDifference.innerText = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
 }
 
-function dateBuilder(d) {
-  let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-  let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-  let day = days[d.getDay()];
-  let date = d.getDate();
-  let month = months[d.getMonth()];
-  let year = d.getFullYear();
-
-  return `${day} ${date} ${month} ${year}`;
-}
+console.log (displayResults)
