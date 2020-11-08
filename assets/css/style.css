@@ -95,8 +95,8 @@ section {
 	margin-top: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 270px) {
   header button {
-    width: 2%;
+    width: 32px;
   }
 }
