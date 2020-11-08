@@ -7,13 +7,13 @@ const tempDiffRef = document.querySelector ('.temperature-difference');
 
 const api = {
   key: "03e844bff36a172614ecb788fd7c7fd8",
-  base: "https://api.openweathermap.org/data/2.5/"
-}
+  base: "https://api.openweathermap.org/data/2.5/",
+};
 
 
 enquiryRef.addEventListener('keypress', checkIfEnter);
 
-function checkIfEnter(event) {
+function checkIfEnter(event){
   if (event.keyCode === 13) {
     getResults(enquiryRef.value);
   }
