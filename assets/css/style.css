@@ -16,7 +16,7 @@ body {
 	background-position: top center;
 }
 
-.whole-app {
+#whole-app {
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -67,14 +67,14 @@ section {
 	text-align: center;
 }
 
-#place .area {
+#area {
 	margin-bottom: 0.5rem;
 	font-weight: 600;
 	font-size: 3.2rem;
 	text-transform: uppercase;
 }
 
-#place .day {
+#day {
 	font-size: 1.6rem;
 	margin-top: 1.2rem;
 }
@@ -83,18 +83,18 @@ section {
 	color: #89BBFE;
 }
 
-#conditions-now .temperature {
+#temperature {
 	font-size: 11rem;
 	margin-bottom: 1.5rem;
 	font-weight: 800;
 }
 
-#conditions-now .conditions {
+#conditions {
 	font-size: 4.8rem;
 	margin-top: 2rem;
 }
 
-#conditions-now .temperature-difference {
+#temperature-difference {
 	font-size: 3.2rem;
 	margin-top: 2rem;
 }

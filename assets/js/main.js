@@ -1,9 +1,9 @@
-const enquiryRef = document.querySelector('.enquiry');
-const areaRef = document.querySelector('#place .area');
-const dateRef = document.querySelector ('#place .day');
-const weatherRef = document.querySelector ('#conditions-now .conditions');
-const tempRef = document.querySelector ('#conditions-now .temperature');
-const tempDiffRef = document.querySelector ('.temperature-difference');
+const enquiryRef = document.querySelector('#enquiry');
+const areaRef = document.querySelector('#place #area');
+const dateRef = document.querySelector ('#place #day');
+const weatherRef = document.querySelector ('#conditions-now #conditions');
+const tempRef = document.querySelector ('#conditions-now #temperature');
+const tempDiffRef = document.querySelector ('#temperature-difference');
 
 const api = {
   key: "03e844bff36a172614ecb788fd7c7fd8",
