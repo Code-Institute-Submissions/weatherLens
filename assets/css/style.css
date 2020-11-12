@@ -5,6 +5,10 @@
 	box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
 	font-family: 'Arvo', sans-serif;
 	background-image: url('sugarloaf.jpg');
@@ -18,38 +22,38 @@ body {
 	min-height: 100vh;
 }
 
-header {
+form {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 50px 15px 15px;
+	padding: 5rem 1.5rem 1.5rem;
 }
 
-header input {
+form input {
 	width: 100%;
-	max-width: 320px;
-	padding: 10px 15px;
-	border: 4px solid #FFC857;
+	max-width: 32rem;
+	padding: 1rem 1.5rem;
+	border: 0.4rem solid #FFC857;
 	outline: none;
-	border-radius: 20px;
+	border-radius: 2rem;
 	text-align: center;
 	color: #656565;
-	font-size: 18px;
+	font-size: 1.8rem;
 }
 
-header input:focus::placeholder {
+form input:focus::placeholder {
 	color: transparent;
 }
 
-header button {
- width: 66px;
-  padding: 15px;
+form button {
+ width: 6.6rem;
+  padding: 1.5rem;
   background: #89BBFE;
   color: white;
-  font-size: 17px;
+  font-size: 1.7rem;
   border-radius: 50% 50%;
-  margin: 5px;
-  border: 4px solid #FFC857
+  margin: 0.5rem;
+  border: 0.4rem solid #FFC857
 }
 
 
@@ -58,21 +62,21 @@ section {
 	display: flex;
 	flex-direction: column;
 	flex: 1 1 100%;
-	padding: 25px 25px 50px;
+	padding: 2.5rem 2.5rem 5rem;
 	align-items: center;
 	text-align: center;
 }
 
 #place .area {
-	margin-bottom: 5px;
+	margin-bottom: 0.5rem;
 	font-weight: 600;
-	font-size: 32px;
+	font-size: 3.2rem;
 	text-transform: uppercase;
 }
 
 #place .day {
-	font-size: 16px;
-	margin-top: 12px;
+	font-size: 1.6rem;
+	margin-top: 1.2rem;
 }
 
 #conditions-now {
@@ -80,23 +84,23 @@ section {
 }
 
 #conditions-now .temperature {
-	font-size: 110px;
-	margin-bottom: 15px;
+	font-size: 11rem;
+	margin-bottom: 1.5rem;
 	font-weight: 800;
 }
 
 #conditions-now .conditions {
-	font-size: 48px;
-	margin-top: 20px;
+	font-size: 4.8rem;
+	margin-top: 2rem;
 }
 
 #conditions-now .temperature-difference {
-	font-size: 32px;
-	margin-top: 20px;
+	font-size: 3.2rem;
+	margin-top: 2rem;
 }
 
 @media (max-width: 270px) {
   header button {
-    width: 32px;
+    width: 3.2rem;
   }
 }

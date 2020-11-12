@@ -19,6 +19,7 @@ function checkIfEnter(event){
   }
 }
 
+
 function getResults(city) {
   fetch(`${api.base}weather?q=${city}&units=metric&APPID=${api.key}`)
     .then((response) => response.json()) 
