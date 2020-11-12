@@ -22,7 +22,10 @@ function checkIfEnter(event){
 
 function getResults(city) {
   fetch(`${api.base}weather?q=${city}&units=metric&APPID=${api.key}`)
-    .then((response) => response.json()) 
+if (!city.ok) {
+    throw Error (city.stausText);
+};
+    then((response) => response.json()) 
     .then((weatherData) => {
     displayResults(weatherData);
     });
