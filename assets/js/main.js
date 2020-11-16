@@ -12,6 +12,8 @@ const api = {
 
 
 enquiryRef.addEventListener('keypress', checkIfEnter);
+enquiryRef.addEventListener('click', checkIfEnter);
+
 
 function checkIfEnter(event){
   if(event.keyCode === 13) {
