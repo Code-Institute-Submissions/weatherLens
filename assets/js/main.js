@@ -4,7 +4,7 @@ const dateRef = document.querySelector ('#day');
 const weatherRef = document.querySelector ('#conditions');
 const tempRef = document.querySelector ('#temperature');
 const tempDiffRef = document.querySelector ('#temperature-difference');
-
+const searchRef = document.querySelector ('#searchBtn')
 const api = {
   key: '03e844bff36a172614ecb788fd7c7fd8',
   base: 'https://api.openweathermap.org/data/2.5/',
@@ -12,11 +12,12 @@ const api = {
 
 
 enquiryRef.addEventListener('keypress', checkIfEnter);
-enquiryRef.addEventListener('click', checkIfEnter);
+searchRef.addEventListener('click', checkIfEnter);
 
 
 function checkIfEnter(event){
-  if(event.keyCode === 13) {
+  if(event.keyCode === 13)
+  if (event.type == 'click'); {
     getResults(enquiryRef.value);
   }
 }
