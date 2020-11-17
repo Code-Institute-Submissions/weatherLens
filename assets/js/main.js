@@ -4,7 +4,7 @@ const dateRef = document.querySelector ('#day');
 const weatherRef = document.querySelector ('#conditions');
 const tempRef = document.querySelector ('#temperature');
 const tempDiffRef = document.querySelector ('#temperature-difference');
-const searchRef = document.querySelector ('#searchBtn')
+const searchRef = document.querySelector ('#searchBtn');
 const api = {
   key: '03e844bff36a172614ecb788fd7c7fd8',
   base: 'https://api.openweathermap.org/data/2.5/',
@@ -22,12 +22,22 @@ function checkIfEnter(event){
 }
 
 
+
 function getResults(city){
-  fetch(`${api.base}weather?q=${city}&units=metric&APPID=${api.key}`)
-    .then((response) => response.json()) 
+  fetch(`${api.base}weather?q=${city}&units=metric&APPID=${api.key}`).then(function(response) {
+    if (!response.ok) {
+        throw new Error ('No such place');
+    }  else {
+    .then((response) => response.json()); 
     .then((weatherData) => {
     displayResults(weatherData);
+    })
+      .catch(function(err) {
+        console.log('Error');
     });
+        }   
+    }
+   );
 }
 
 function displayResults(weather) {
