@@ -41,7 +41,7 @@ body {
 	font-size: 1.8rem;
 }
 
-#enquiry input:focus::placeholder {
+input:focus::placeholder {
 	color: transparent;
 }
 
