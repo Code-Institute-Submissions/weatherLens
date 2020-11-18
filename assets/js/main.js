@@ -42,7 +42,7 @@ function getResults(city) {
             displayResults(weatherData);
         })
         .catch(function (error) {
-            alert ('Invalid location. Please try again');
+            alert ('Invalid location. Please try again. Maybe check the spelling');
         });
 }
 

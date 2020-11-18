@@ -165,27 +165,27 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 ### Error Message 
 
-**Plan** – 
+**Plan** – For an error message to appear when the user tries to search for an invalid location.
 
-**Implementation** – 
+**Implementation** – By adding an throw catch methods to detect and deal with any errors that might appear in the console in chrome developer tools. If an error occurs then an alert will pop up and tell the user that they have search for an invalid location and to try again. 
 
-**Test** –  
+**Test** –  By entering random letters into the search box and trying to search. 
 
-**Result** – 
+**Result** – An alert box appears when the search is invalid instructing the user to try again.
 
-**Verdict** – 
+**Verdict** – This test passed based on the notes in the criteria above. 
 
 ### Responsiveness 
 
-**Plan** – 
+**Plan** – For the app to work across all devices and screen dimensions. 
 
-**Implementation** – 
+**Implementation** – To insert media queries to enure the information still displays correctly. 
 
-**Test** –  
+**Test** –  Using chrome developer tools to look at the app across different devices and screen dimensions.
 
-**Result** – 
+**Result** – The app is responsive across all devices and screen dimensions above 260px.
 
-**Verdict** – 
+**Verdict** – This test passed based on the notes in the criteria above. 
 
 
 ### Accessibility
