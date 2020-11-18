@@ -29,7 +29,7 @@ function getResults(city){
         throw new Error ('No such place')
         return 
     }
-}
+  })
     .then((response) => response.json()) 
     .then((weatherData) => {
     displayResults(weatherData);
@@ -37,9 +37,7 @@ function getResults(city){
       .catch(function(err) {
         console.log('Error');
     })
-          
-    
-   );
+        
 }
 
 function displayResults(weather) {
