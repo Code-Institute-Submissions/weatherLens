@@ -26,17 +26,15 @@ function checkIfEnter(event){
 function getResults(city) {
     fetch(`${api.base}weather?q=${city}&units=metric&APPID=${api.key}`)
         .then(function (response) {
-            console.log(response);
             if (!response.ok) {
-                throw new Error('No such place');
-                return
+                throw new Error('Error');
             }
         })
         .then((response) => response.json())
         .then((weatherData) => {
             displayResults(weatherData);
         })
-        .catch(function (err) {
+        .catch(function (error) {
             alert ('Invalid location. Please try again');
         });
 }
