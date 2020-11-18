@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap: 100,200,300,400,500,600,700');
+
+/* Styling applied to whole app */
+
  * {
 	margin: 0;
 	padding: 0;
@@ -21,6 +24,8 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 }
+
+/* Search bar and button */
 
 #search {
 	display: flex;
@@ -56,6 +61,7 @@ input:focus::placeholder {
   border: 0.4rem solid #FFC857
 }
 
+/* Styling applied to the weather data */
 
 section {
 	color: #0a2239;
@@ -98,6 +104,8 @@ section {
 	font-size: 3.2rem;
 	margin-top: 2rem;
 }
+
+/* Media queries */
 
 @media (max-width: 270px) {
   header button {
