@@ -23,21 +23,22 @@ function checkIfEnter(event){
 
 
 
-function getResults(city){
-  fetch(`${api.base}weather?q=${city}&units=metric&APPID=${api.key}`).then(function(response) {
-    if (!response.ok) {
-        throw new Error ('No such place')
-        return 
-    }
-  })
-    .then((response) => response.json()) 
-    .then((weatherData) => {
-    displayResults(weatherData);
-    })
-      .catch(function(err) {
-        console.log('Error');
-    })
-        
+function getResults(city) {
+    fetch(`${api.base}weather?q=${city}&units=metric&APPID=${api.key}`)
+        .then(function (response) {
+            console.log(response);
+            if (!response.ok) {
+                throw new Error('No such place');
+                return
+            }
+        })
+        .then((response) => response.json())
+        .then((weatherData) => {
+            displayResults(weatherData);
+        })
+        .catch(function (err) {
+            alert ('Invalid location. Please try again');
+        });
 }
 
 function displayResults(weather) {
