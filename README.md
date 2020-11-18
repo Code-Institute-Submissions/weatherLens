@@ -105,6 +105,8 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 ### Accessibility
 
+**Aria labels** have been added to all inputs to ensure that there is accessibility for all users. 
+
 ### Validation
 
 All code was **validated** using [W3C’s Code Validator]( https://jigsaw.w3.org/css-validator/validator) and no errors or warnings were shown. 
