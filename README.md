@@ -115,15 +115,15 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 ### Search Box
 
-**Plan** – 
+**Plan** – For the users to be able to type in the location that they wanted to search. 
 
-**Implementation** – 
+**Implementation** – Placeholder text was added to the input to ensure that user knew what the search box was for. 
 
-**Test** –  
+**Test** –  This was tested by asking friends and family to use the app and to see if they could search any location. 
 
-**Result** – 
+**Result** – All users were able to use the search box as intented to get the current weather conditions for their searched location. 
 
-**Verdict** – 
+**Verdict** – This test passed based on the notes in the criteria above. 
 
 ### Search Button
 
