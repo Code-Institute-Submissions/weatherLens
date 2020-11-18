@@ -125,30 +125,30 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 **Verdict** – This test passed based on the notes in the criteria above. 
 
-### Search Button
+### Search Button and Enter Button to Conduct Search
 
-**Plan** – 
+**Plan** – The button was added to allow users to search for a location if they were not able to press the enter key. 
 
-**Implementation** – 
+**Implementation** – The search button was added to the same function as the enter key in the JavaScipt file. This gave the users a choice but also if a user was using their phone with no enter button, they would still be able to search by pressing the button. 
 
-**Test** –  
+**Test** –  This was tested by entering a lot of different locations into the search box and using a combination of the enter key and the search button to get the results.
 
-**Result** – 
+**Result** – Both methods were success in allowing the user to search for their desired location.
 
-**Verdict** – 
+**Verdict** – This test passed based on the notes in the criteria above. 
 
 ### Information Displayed
 
 
-**Plan** – 
+**Plan** – For the weather information to be displayed to the user in a clear manner so that they could quickly understand the weather conditions in their chosen location.
 
-**Implementation** – 
+**Implementation** – The styling for the weather information is done in a way that is clear and shows the user the information in an understandable way. The most important information such as the temperature and the current weather conditions are presented in the largest text to ensure this. 
 
-**Test** –  
+**Test** –  This was tested by friends and family to ensure they are able to understand the weather information they are being shown as quickly as possible. 
 
-**Result** – 
+**Result** – The users were able to understand the weather information for the chosen locations without any questions. 
 
-**Verdict** – 
+**Verdict** – This test passed based on the notes in the criteria above. 
 
 ### Fetch from Open weather API
 
