@@ -24,6 +24,7 @@ A weather app designed to bring the up to date **weather** to the user. The user
 
 
 ### Design 
+
 1. **Logo**
 The logo was created using [Free Logo Maker](https://logomakr.com) and was designed to incorporate the **weather** and the **lens** that allows you to view the weather in a chosen location.
 
@@ -152,15 +153,15 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 ### Fetch from Open weather API
 
-**Plan** – 
+**Plan** – For the weather data to be fetched for each location that the user searched for. 
 
-**Implementation** – 
+**Implementation** – By using an API key and URL alongside the relevant functions that allow the user to search for any valid locations. 
 
-**Test** –  
+**Test** –  This was tested by myself to ensure the information was being fetched properly. I attempted various different locations over a couple of days to ensure the data was still being returned. I also used chrome developer tools to look at the console and check there were no errors being presented.
 
-**Result** – 
+**Result** – The fetch funtion is able to return the correct weather information from the API and display it correctly. 
 
-**Verdict** – 
+**Verdict** – This test passed based on the notes in the criteria above. 
 
 ### Error Message 
 
