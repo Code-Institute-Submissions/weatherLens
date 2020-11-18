@@ -27,7 +27,7 @@ function getResults(city) {
     fetch(`${api.base}weather?q=${city}&units=metric&APPID=${api.key}`)
         .then(function (response) {
             if (!response.ok) {
-                throw new Error('Error');
+                throw new Error ('error');
             }
         })
         .then((response) => response.json())
