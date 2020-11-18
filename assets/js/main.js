@@ -15,10 +15,10 @@ const api = {
   base: 'https://api.openweathermap.org/data/2.5/',
 };
 
-// event listeners for the enter button and a mouse click on the search button
+// Event listeners for the enter button and a mouse click on the search button
 
-enquiryRef.addEventListener('keypress', checkIfEnter);
-searchRef.addEventListener('click', checkIfEnter);
+enquiryRef.addEventListener('keypress', checkIfEnter);    // Enter button when text is entered into the search box
+searchRef.addEventListener('click', checkIfEnter);       // Mouse clicking the search button when text is entered into the search box
 
 
 

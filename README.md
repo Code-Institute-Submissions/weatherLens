@@ -103,6 +103,88 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 ### All Sections
 
+**Plan** – I want the app to allow the users to search for a location and find out all the **current** weather conditions. This included showing the user the location they searched for including the country, the current date of their search, the current temperature, the conditions and the minimum and maximum temperature.
+
+**Implementation** – Ensuring that users were able to access the information for the relevant location based on their search. The information is clear and concise as not to confuse the user.
+
+**Test** –  This was tested by asking friends and family to use the app and to see if they could search any location. 
+
+**Result** – The weather information was presented to the user from the location that they searched. 
+
+**Verdict** – This test passed based on the notes in the criteria above. 
+
+### Search Box
+
+**Plan** – 
+
+**Implementation** – 
+
+**Test** –  
+
+**Result** – 
+
+**Verdict** – 
+
+### Search Button
+
+**Plan** – 
+
+**Implementation** – 
+
+**Test** –  
+
+**Result** – 
+
+**Verdict** – 
+
+### Information Displayed
+
+
+**Plan** – 
+
+**Implementation** – 
+
+**Test** –  
+
+**Result** – 
+
+**Verdict** – 
+
+### Fetch from Open weather API
+
+**Plan** – 
+
+**Implementation** – 
+
+**Test** –  
+
+**Result** – 
+
+**Verdict** – 
+
+### Error Message 
+
+**Plan** – 
+
+**Implementation** – 
+
+**Test** –  
+
+**Result** – 
+
+**Verdict** – 
+
+### Responsiveness 
+
+**Plan** – 
+
+**Implementation** – 
+
+**Test** –  
+
+**Result** – 
+
+**Verdict** – 
 
 
 ### Accessibility
