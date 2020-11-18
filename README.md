@@ -71,6 +71,8 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 * **Animated weather icons** that automatically change according to the weather in the users searched location. 
 
+* Load the **Users location** when the app loads so it automatically gives them the weather where they are rather than having to search for it.
+
 ## Technologies Used
 ---
 ### **Languages**
@@ -83,8 +85,9 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 ### **Frameworks and Libraries**
 
-[Google Fonts](https://fonts.google.com/specimen/Lato?sidebar.open&selection.family=Lato)
-[JSON](https://www.json.org/json-en.html)
+* [Google Fonts](https://fonts.google.com/specimen/Lato?sidebar.open&selection.family=Lato)
+* [JSON](https://www.json.org/json-en.html)
+* [Font Awesome](https://fontawesome.com/)
 
 ### **Tools Used**
 
