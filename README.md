@@ -103,6 +103,8 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 ### All Sections
 
+
+
 ### Accessibility
 
 **Aria labels** have been added to all inputs to ensure that there is accessibility for all users. 
@@ -139,6 +141,7 @@ To create a local respository, follow the steps below:
 ---
 
 ### Content
+
 
 ### Media
 
