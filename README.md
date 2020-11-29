@@ -196,6 +196,10 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 All code was **validated** using [W3C’s Code Validator]( https://jigsaw.w3.org/css-validator/validator) and no errors or warnings were shown. 
 
+### Lighthouse Testing in Chrome Developer Tools
+
+**A Lighthouse audit** was run in Chrome Developer tools and found that the performance, accessibility, best practices and SEO came back as green with scores between 90 and 100. 
+
 ## Deployment
 ---
 
