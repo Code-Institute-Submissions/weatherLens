@@ -21,6 +21,7 @@ searchRef.addEventListener('click', checkIfEnter);
  * 
  * @param {object} event Triggered by the user either clicking the enter button or by using the mouse and clicking on the search icon
  */
+
 function checkIfEnter(event){
   if(event.keyCode === 13 || event.type === 'click') {
     getResults(enquiryRef.value);
@@ -43,7 +44,7 @@ function getResults(city) {
             displayResults(weatherData);
         })
         .catch((error) => {
-            console.log(error)
+            console.log(error);
              resetView();
             
         });
@@ -71,8 +72,8 @@ function resetView(clear) {
 
 function displayResults(weather) {
     if (weather.cod === '404') {
-        resetView()
-        areaRef.innerHTML = "City not found. Please try again."
+        resetView();
+        areaRef.innerHTML = "City not found. Please try again.";
     } else {
   areaRef.innerText = `${weather.name}, ${weather.sys.country}`;
   dateRef.innerText = dateToday.toDateString();
