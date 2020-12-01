@@ -17,6 +17,8 @@ const api = {
 enquiryRef.addEventListener('keypress', checkIfEnter);    
 searchRef.addEventListener('click', checkIfEnter);      
 
+
+
 function checkIfEnter(event){
   if(event.keyCode === 13 || event.type === 'click') {
     getResults(enquiryRef.value);
@@ -30,6 +32,7 @@ function checkIfEnter(event){
  * @param {string} city The location the user is searching to find out the weather conditions
  * @returns {Object} The weather at the searched location
  */
+
 function getResults(city) {
     fetch(`${api.base}weather?q=${city}&units=metric&APPID=${api.key}`)
         .then((response) => response.json())
@@ -46,8 +49,9 @@ function getResults(city) {
 
 /**
  * 
- * @param {nay} clear - clears the weather data on the screen if there is an error
+ * @param {nay} clear  clears the weather data on the screen if there is an error
  */
+
 function resetView(clear) {
     areaRef.innerText = "";
     dateRef.innerText = "";
@@ -57,6 +61,11 @@ function resetView(clear) {
 }
 
 
+/**
+ * 
+ * @param {any} weather displays the weather conditions for the users searched location
+ * @returns {Object} displays the location name, date, temperature, conditions and minimum and maximum temperature
+ */
 
 function displayResults(weather) {
     if (weather.cod === '404') {
