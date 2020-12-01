@@ -23,6 +23,12 @@ function checkIfEnter(event){
   }
 }
 
+/**
+ * This function will fetch the weather data from the open weather API
+ * If the location that the user searches for is invalid, this function will catch the error
+ * 
+ * @param {string} city The location the user is searching to find out the weather conditions
+ */
 function getResults(city) {
     fetch(`${api.base}weather?q=${city}&units=metric&APPID=${api.key}`)
         .then((response) => response.json())
