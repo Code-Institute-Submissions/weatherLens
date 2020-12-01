@@ -236,8 +236,10 @@ To create a local respository, follow the steps below:
 
 ### Acknoweledgements
 
+* The basic elements of the weather application were helped by using the following tutorial [Weather App Tutorial](https://www.youtube.com/watch?v=n4dtwWgRueI&t=1215s)
 
 * I would like to thank [Simen Dehlin](https://github.com/Eventyret) for his continued support, help and words of encouragement throughout this project. 
+* I would like to thank the **Tutor support** at the Code Institute for their help. 
 * I would also like to thank the **slack community** at the Code Institute for the help with peer review when needed. 
 
 
