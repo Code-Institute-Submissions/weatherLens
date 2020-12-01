@@ -13,12 +13,14 @@ const api = {
 };
 
 
-
 enquiryRef.addEventListener('keypress', checkIfEnter);    
 searchRef.addEventListener('click', checkIfEnter);      
 
 
-
+/**
+ * 
+ * @param {object} event Triggered by the user either clicking the enter button or by using the mouse and clicking on the search icon
+ */
 function checkIfEnter(event){
   if(event.keyCode === 13 || event.type === 'click') {
     getResults(enquiryRef.value);
