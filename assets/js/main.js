@@ -44,13 +44,19 @@ function getResults(city) {
         });
 }
 
-function resetView() {
+/**
+ * 
+ * @param {nay} clear - clears the weather data on the screen if there is an error
+ */
+function resetView(clear) {
     areaRef.innerText = "";
     dateRef.innerText = "";
     tempRef.innerHTML = "";
     weatherRef.innerText = "";
     tempDiffRef.innerText = "";
 }
+
+
 
 function displayResults(weather) {
     if (weather.cod === '404') {
