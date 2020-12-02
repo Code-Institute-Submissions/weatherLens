@@ -71,7 +71,7 @@ function resetView(clear) {
  */
 
 function displayResults(weather) {
-    if (weather.cod === '404') {
+    if (weather.cod === '404'|| weather.cod === '400') {
         resetView();
         areaRef.innerHTML = "City not found. Please try again.";
     } else {
