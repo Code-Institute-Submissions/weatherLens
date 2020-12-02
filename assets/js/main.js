@@ -24,6 +24,7 @@ searchRef.addEventListener('click', checkIfEnter);
 
 function checkIfEnter(event){
   if(event.keyCode === 13 || event.type === 'click') {
+      if (!enquiryRef.value) return;
     getResults(enquiryRef.value);
   }
 }
