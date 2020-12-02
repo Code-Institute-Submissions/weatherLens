@@ -52,7 +52,7 @@ function getResults(city) {
 
 /**
  * 
- * @param {nay} clear  clears the weather data on the screen if there is an error
+ * @param {any} clear  clears the weather data on the screen if there is an error
  */
 
 function resetView(clear) {
