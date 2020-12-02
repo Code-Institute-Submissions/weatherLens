@@ -84,10 +84,11 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 * JavaScipt
 
+* JSON
+
 ### **Frameworks and Libraries**
 
 * [Google Fonts](https://fonts.google.com/specimen/Lato?sidebar.open&selection.family=Lato)
-* [JSON](https://www.json.org/json-en.html)
 * [Font Awesome](https://fontawesome.com/)
 
 ### **Tools Used**
