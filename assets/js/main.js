@@ -40,7 +40,6 @@ function getResults(city) {
     fetch(`${api.base}weather?q=${city}&units=metric&APPID=${api.key}`)
         .then((response) => response.json())
         .then((weatherData) => {
-            console.log(weatherData);
             displayResults(weatherData);
         })
         .catch((error) => {
