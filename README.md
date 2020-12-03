@@ -117,6 +117,8 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 ### Search Box
 
+#### User Story - To be able to search for a chosen location.
+
 **Plan** – For the users to be able to type in the location that they wanted to search. 
 
 **Implementation** – Placeholder text was added to the input to ensure that user knew what the search box was for. 
