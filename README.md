@@ -117,7 +117,7 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 ### Search Box
 
-#### User Story - To be able to search for a chosen location.
+#### User Story - I want to be able to **search** for a location.
 
 **Plan** – For the users to be able to type in the location that they wanted to search. 
 
@@ -143,6 +143,7 @@ The following wireframes were created using [Balsamiq](https://balsamiq.com/wire
 
 ### Information Displayed
 
+#### User Story - I want to be able to see the **temperature** in my chosen location.
 
 **Plan** – For the weather information to be displayed to the user in a clear manner so that they could quickly understand the weather conditions in their chosen location.
 
