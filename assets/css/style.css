@@ -14,7 +14,8 @@ html {
 
 body {
 	font-family: 'Arvo', sans-serif;
-	background-image: url('sugarloaf.jpg');
+    font-size: 1.6rem;
+	background-image: url(../images/sugarloaf.jpg);
 	background-size: cover;
 	background-position: top center;
 }
