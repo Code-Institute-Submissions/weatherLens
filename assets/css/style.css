@@ -2,10 +2,10 @@
 
 /* Styling applied to whole app */
 
- * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -13,46 +13,46 @@ html {
 }
 
 body {
-	font-family: 'Arvo', sans-serif;
-    font-size: 1.6rem;
-	background-image: url(../images/sugarloaf.jpg);
-	background-size: cover;
-	background-position: top center;
+  font-family: 'Arvo', sans-serif;
+  font-size: 1.6rem;
+  background-image: url(../images/sugarloaf.jpg);
+  background-size: cover;
+  background-position: top center;
 }
 
 #whole-app {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Search bar and button */
 
 #search {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 5rem 1.5rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 1.5rem 1.5rem;
 }
 
 #enquiry {
-	width: 100%;
-	max-width: 32rem;
-	padding: 1rem 1.5rem;
-	border: 0.4rem solid #FFC857;
-	outline: none;
-	border-radius: 2rem;
-	text-align: center;
-	color: #656565;
-	font-size: 1.8rem;
+  width: 100%;
+  max-width: 32rem;
+  padding: 1rem 1.5rem;
+  border: 0.4rem solid #FFC857;
+  outline: none;
+  border-radius: 2rem;
+  text-align: center;
+  color: #656565;
+  font-size: 1.8rem;
 }
 
 input:focus::placeholder {
-	color: transparent;
+  color: transparent;
 }
 
 #search a {
- width: 6.6rem;
+  width: 6.6rem;
   padding: 1.5rem;
   background: #89BBFE;
   color: white;
@@ -65,45 +65,45 @@ input:focus::placeholder {
 /* Styling applied to the weather data */
 
 section {
-	color: #0a2239;
-	display: flex;
-	flex-direction: column;
-	flex: 1 1 100%;
-	padding: 2.5rem 2.5rem 5rem;
-	align-items: center;
-	text-align: center;
+  color: #0a2239;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  padding: 2.5rem 2.5rem 5rem;
+  align-items: center;
+  text-align: center;
 }
 
 #area {
-	margin-bottom: 0.5rem;
-	font-weight: 600;
-	font-size: 3.2rem;
-	text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 3.2rem;
+  text-transform: uppercase;
 }
 
 #day {
-	font-size: 1.6rem;
-	margin-top: 1.2rem;
+  font-size: 1.6rem;
+  margin-top: 1.2rem;
 }
 
 #conditions-now {
-	color: #89BBFE;
+  color: #89BBFE;
 }
 
 #temperature {
-	font-size: 11rem;
-	margin-bottom: 1.5rem;
-	font-weight: 800;
+  font-size: 11rem;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
 }
 
 #conditions {
-	font-size: 4.8rem;
-	margin-top: 2rem;
+  font-size: 4.8rem;
+  margin-top: 2rem;
 }
 
 #temperature-difference {
-	font-size: 3.2rem;
-	margin-top: 2rem;
+  font-size: 3.2rem;
+  margin-top: 2rem;
 }
 
 /* Media queries */

@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <meta name="Description" content="Enter your description here" />
-      <!-- Browser tab icon -->
-      <link rel="shortcut icon" href="assets/favicon/favicon.ico">
-      <!-- Link to CSS -->
-      <link rel="stylesheet" href="assets/css/style.css">
-      <title>WeatherLens</title>
-   </head>
-   <body>
-      <div id="whole-app">
-         <!-- Search bar -->
-         <div id="search">
-            <input type="text" id="enquiry" placeholder="City or Location..."  autocomplete="off" aria-label="Search Box" required>
-            <a href="#" role="button" id="searchBtn" aria-label="Search Button">
-                <img src="assets/images/search-solid.svg" alt="search">
-            </a>
-         </div>
-         <main>
-            <!-- Location and Date -->
-            <section id="place">
-               <div id="area">Location</div>
-               <div id="day">Date</div>
-            </section>
-            <!-- Current conditions -->
-            <section id="conditions-now">
-               <div id="temperature">Temp<span>°c</span>
-               </div>
-               <div id="conditions">Conditions</div>
-               <div id="temperature-difference">Min and Max</div>
-            </section>
-         </main>
-      </div>
-      <!-- Link to JavaScript -->
-      <script src="assets/js/main.js"></script>
-   </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="Enter your description here" />
+  <!-- Browser tab icon -->
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>WeatherLens</title>
+</head>
+
+<body>
+  <div id="whole-app">
+    <!-- Search bar -->
+    <div id="search">
+      <input type="text" id="enquiry" placeholder="City or Location..."
+        autocomplete="off" aria-label="Search Box" required>
+      <a href="#" role="button" id="searchBtn" aria-label="Search Button">
+        <img src="assets/images/search-solid.svg" alt="search">
+      </a>
+    </div>
+    <main>
+      <!-- Location and Date -->
+      <section id="place">
+        <div id="area">Location</div>
+        <div id="day">Date</div>
+      </section>
+      <!-- Current conditions -->
+      <section id="conditions-now">
+        <div id="temperature">Temp<span>°c</span>
+        </div>
+        <div id="conditions">Conditions</div>
+        <div id="temperature-difference">Min and Max</div>
+      </section>
+    </main>
+  </div>
+  <!-- Link to JavaScript -->
+  <script src="assets/js/main.js"></script>
+</body>
+
 </html>
