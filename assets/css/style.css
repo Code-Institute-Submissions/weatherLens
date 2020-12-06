@@ -51,12 +51,12 @@ input:focus::placeholder {
 	color: transparent;
 }
 
-#search button {
+#search a {
  width: 6.6rem;
   padding: 1.5rem;
   background: #89BBFE;
   color: white;
-  font-size: 1.7rem;
+  font-size: 0.7rem;
   border-radius: 50% 50%;
   margin: 0.5rem;
   border: 0.4rem solid #FFC857
