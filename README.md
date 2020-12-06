@@ -240,7 +240,8 @@ To create a local respository, follow the steps below:
 
 ### Acknoweledgements
 
-* The basic elements of the weather application were helped by using the following tutorial [Weather App Tutorial](https://www.youtube.com/watch?v=n4dtwWgRueI&t=1215s)
+* The main idea and concept were helped by using the following tutorial [Weather App Tutorial](https://www.youtube.com/watch?v=n4dtwWgRueI&t=1215s)
+* The anchor tag role was help by [HTML a tag page](https://www.w3schools.com/tags/tag_a.asp)
 
 * I would like to thank [Simen Dehlin](https://github.com/Eventyret) for his continued support, help and words of encouragement throughout this project. 
 * I would like to thank the **Tutor support** at the Code Institute for their help. 
